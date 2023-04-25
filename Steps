@@ -1,0 +1,4 @@
+$ pyp2spec usb-resetter
+$ rpmbuild -ba python-usb-resetter.spec
+$ cd rpmbuild/RPMS/noarch
+$ sudo dnf install python-usb-resetter-1.3.0.tar.gz
